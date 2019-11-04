@@ -1,8 +1,31 @@
 body{
     width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    font-family: 'Righteous', cursive;
-    font-size: 16px;
+    min-height: 100vh;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    background: url("../img/abstract-3170825_960_720.jpg") center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 50px;
+        width: 80%;
+        background: rgba(212, 212, 212, 0.788);
+        border-radius: 10%;
+
+        #photo{
+            object-fit: scale-down;
+            max-height: 250 px;
+            border-radius: 50%;
+        }
+    }
+
 }
+
 
