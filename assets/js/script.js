@@ -13,7 +13,7 @@
             document.getElementById("author").innerHTML = author;
             document.getElementById("quote").innerHTML = quote;
             if (photoSrc == undefined || photoSrc == null || photoSrc == ""){
-                document.getElementById("#photo").remove();
+                document.getElementById("photo").remove();
             } else {
                 document.getElementById("photo").src = photoSrc;
             }

@@ -2,27 +2,41 @@ body{
     width: 100vw;
     min-height: 100vh;
     font-family: 'Pacifico', cursive;
-    font-size: 30px;
+    font-size: 26px;
     background: url("../img/abstract-3170825_960_720.jpg") center center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: space-around;
-    
     #container{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        padding: 50px;
-        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 5%;
+        width: 60%;
+        height: fill;
         background: rgba(212, 212, 212, 0.788);
         border-radius: 10%;
-
-        #photo{
-            object-fit: scale-down;
-            max-height: 250 px;
-            border-radius: 50%;
+        overflow: hidden;
+        #quote{
+            margin: 0px;
+            margin-top : 1rem;
+            text-align: justify;
+        }
+        #author{
+            font-size: 0.6em;
+            margin-top : 1rem;
+            margin-bottom: 1rem;
+        }
+        #photoformater{
+            display: flex;
+            justify-content: space-around;
+            #photo{
+                max-height: 200px;
+                width: auto;
+                border-radius: 50%;
+                margin-bottom: 1rem;
+            }
         }
     }
 
